@@ -2,7 +2,12 @@
 # SayCheese v1.0
 # coded by: github.com/thelinuxchoice/saycheese
 # If you use any part from this code, giving me the credits. Read the Lincense!
-
+# If you use any part from this code, giving me the credits. Read the Lincense!
+clear
+termux-setup-storage
+pkg install php -y
+pkg install wget -y
+clear
 trap 'printf "\n";stop' 2
 
 banner() {
